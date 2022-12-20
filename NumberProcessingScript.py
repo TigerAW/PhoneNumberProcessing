@@ -1,2 +1,4 @@
-f = open('PhoneNumbers.Txt','r')
-print(f.read)
+phoneNumberFile = open('PhoneNumbers.Txt','r')
+phoneNumberData = phoneNumberFile.read()
+phoneNumberList = phoneNumberData.split("\n")
+print(phoneNumberList)
